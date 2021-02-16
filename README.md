@@ -1,4 +1,5 @@
 <!-- Description: A Trello-like application built with React and Redux. Take a look at the live website:  -->
+Original app at: https://github.com/markusenglund/react-kanban
 
 # An Open-Source Kanban App with CodeSee
 At CodeSee, we've found this to be a great app to get up and running with CodeSee. We're hoping you will too!
