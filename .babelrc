@@ -1,0 +1,39 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "modules": false,
+        "loose": true
+      }
+    ],
+    "@babel/react"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@codesee/instrument",
+        "@babel/plugin-proposal-class-properties",
+        ["@babel/plugin-transform-runtime"],
+        [
+          "transform-react-remove-prop-types",
+          {
+            "removeImport": true
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        ["@babel/plugin-transform-runtime"],
+        [
+          "transform-react-remove-prop-types",
+          {
+            "removeImport": true
+          }
+        ]
+      ]
+    }
+  }
+}
