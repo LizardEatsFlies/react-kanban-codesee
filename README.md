@@ -88,8 +88,9 @@ Some things to explore:
   * try clicking a chevron to expand a data value
   * notice as you hover over some areas, regions of the code highlight
   * try clicking the pink “dive in” buttons to see how one function calls another function
-  * as you scroll, notice how headers stack along the top of the screen ー especially after clicking a few “dive in” buttons.
+  * as you scroll, notice how headers stack along the top of the screen ー especially after clicking a few “dive in” buttons -- to help you track where you are.
   * try finding a loop (try clicking “dive in” on map() ) and dragging the loop slider to see the data change
+  * In the upper-right-hand corner, click the chevron to expand the Story Side Bar. Now you can add notes for yourself, and link those notes to specific lines of code. As you explore the data flow and build an understanding, you can jot thoughts down to make it easy to remember everything you've found.
 
 
 
