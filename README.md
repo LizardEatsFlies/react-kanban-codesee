@@ -10,13 +10,13 @@ Follow this process to get the app running. **You only need to do this the very 
 Clone the repo to a local directory. Run the following command in your terminal:
 
 ```
-git clone git@github.com:Codesee-io/react-kanban.git
+git clone git@github.com:Codesee-io/react-kanban-codesee.git
 ```
 
 Enter the new cloned directory:
 
 ```
-cd react-kanban
+cd react-kanban-codesee
 ```
 
 Install dependencies:
