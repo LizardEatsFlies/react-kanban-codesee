@@ -52,7 +52,7 @@ class LandingPage extends Component {
             </a>.
           </p>
           <div className="signin-buttons">
-            <div>
+            {/* <div>
               <a href="/auth/twitter" className="signin-button twitter-button">
                 <FaTwitter className="logo-icon" /> &nbsp;Sign in with Twitter
               </a>
@@ -66,7 +66,7 @@ class LandingPage extends Component {
                 />
                 &nbsp;Sign in with Google
               </a>
-            </div>
+            </div> */}
             <div className="guest-button-wrapper">
               <button
                 onClick={this.enterAsGuest}

@@ -25,21 +25,13 @@ Install dependencies:
 npm install
 ```
 
-> Please don’t worry that there are “14 vulnerabilities”, these will not be a problem for you running the app locally on your computer.
+> Please don’t worry about the listed vulnerabilities, these are only because React-Kanban is an older codebase, and will not be a problem for you running the app locally on your computer.
 
 Build the app:
 
 ```
 npm run build
 ```
-
-> Please allow this command to run for a while. You’ll know it’s done when you see:
-> 
-> `[webpack-cli] watching files for updates...`
-
-Now that the build is complete, we can stop the build:
-
-    Type the key combination: <ctrl> + c
 
 The React Kanban app should now be ready to go!
 
@@ -61,39 +53,15 @@ You can now open your internet browser and go to http://localhost:1337 where you
 
 When you are done using the React Kanban app, you can stop the app by returning to your terminal where you previously ran `npm run serve` and using the key combination: \<ctrl\> + c
 
-## Remember to have the CodeSee server running when making a recording!
-When you’re ready to make a recording, just be sure that you have the CodeSee server running.
 
-In a different terminal window from the React Kanban app, go to the codesee-alpha directory, and run the command:
+# Making your first CodeSee recording
+If you see the CodeSee eye, you are ready to make a recording.
 
-```
-docker-compose up
-```
+Check out the [getting started](https://docs.codesee.io/en/latest/use/quick-start/) documentation on the [codesee doc site](docs.codesee.io).
 
-> You’ll know it’s working when you see the message:
-> `node_backend_1  | server started at http://localhost:5198`
+---
 
-
-## Making your first CodeSee recording
-If you have the CodeSee server running, and you see the CodeSee purple eye, you are ready to make a recording.
-
-1. Click the recording button (the purple eye, which should change into a recording animation)
-2. Interact with the React Kanban app. Remember to keep recordings as short as possible. Long recordings are difficult for the CodeSee alpha.
-3. When you’re done interacting, click the recording button again. In a few moments, a new tab should pop up with the CodeSee UI.
-
-Some things to explore:
-* explore both the Overview and DataFlow tabs
-  * Notice the (...) menu, and try filtering a function out, and restoring it back in.
-* In the data flow tab
-  * try clicking a chevron to expand a data value
-  * notice as you hover over some areas, regions of the code highlight
-  * try clicking the pink “dive in” buttons to see how one function calls another function
-  * as you scroll, notice how headers stack along the top of the screen ー especially after clicking a few “dive in” buttons -- to help you track where you are.
-  * try finding a loop (try clicking “dive in” on map() ) and dragging the loop slider to see the data change
-  * In the upper-right-hand corner, click the chevron to expand the Story Side Bar. Now you can add notes for yourself, and link those notes to specific lines of code. As you explore the data flow and build an understanding, you can jot thoughts down to make it easy to remember everything you've found.
-
-
-
+---
 
 ---
 
